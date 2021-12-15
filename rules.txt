@@ -1,0 +1,4 @@
+1. will change number 
+2. socail media (instagram & twitter).
+3. add place for inserting of video in admin dasboard .
+4. email for register.

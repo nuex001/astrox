@@ -1,0 +1,188 @@
+.style-customizer {
+    background-color: #fff;
+    color: #262626;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    right: -300px;
+    box-shadow: -3px 0 50px -2px rgba(0, 0, 0, .14);
+    height: 100%;
+    bottom: 0;
+}
+
+.style-customizer a.button:hover {
+    color: #2395ec!important
+}
+
+.style-customizer.closed {
+    box-shadow: none
+}
+
+.style-customizer a.button:hover:after {
+    z-index: -1
+}
+
+.style-customizer a.button {
+    z-index: 9
+}
+
+.style-customizer a.button.button-border {
+    background: #2395ec;
+    border: 1px solid #2395ec;
+    font-size: 15px;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    font-weight: 700
+}
+
+
+.style-customizer .content-chooser {
+    padding: 90px 22px 30px 30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    border-top: none
+}
+
+.style-customizer.opened .content-chooser {
+    opacity: 1
+}
+
+.content-chooser p {
+    margin-bottom: 10px
+}
+
+.style-customizer h2 {
+    margin: 0;
+    font-size: 18px
+}
+
+.style-customizer h3 {
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 15px
+}
+
+.style-customizer hr {
+    margin: 15px 0
+}
+
+.style-customizer hr+h3 {
+    margin-top: 0
+}
+
+.style-customizer a.opener {
+    display: block;
+    height: 45px;
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    background: #fff;
+    width: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    color: #777;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 1px 0 3px 0 rgba(0, 0, 0, .14), -1px 0 3px 0 rgba(0, 0, 0, .14)
+}
+
+.style-customizer ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0;
+    font-size: 0
+}
+
+.style-customizer ul li {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 25px;
+    margin: 0 2px 3px 0;
+    position: relative;
+    transition: all .3s linear 0s;
+    width: 60px
+}
+
+.style-customizer ul li.selected {
+    border: 1px solid #000
+}
+
+.style-customizer ul.resetAll li {
+    width: 100%;
+    padding: 6px 0;
+    min-width: 0;
+    text-align: center;
+    margin-top: 30px
+}
+
+.style-customizer .btn a {
+    text-decoration: none;
+    color: #fff
+}
+
+.style-customizer select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b2bfca
+}
+
+.style-customizer .skin-default {
+    background: #014c8c
+}
+
+.style-customizer .skin-chill {
+    background: #13909C
+}
+.style-customizer .skin-dixie {
+    background: #eb9d16
+}
+.style-customizer .skin-dodger {
+    background: #3794f3
+}
+.style-customizer .skin-froly {
+    background: #f17283
+}
+.style-customizer .skin-green {
+    background: #37f396
+}
+.style-customizer .skin-lime {
+    background: #c8f905
+}
+.style-customizer .skin-nova {
+    background: #4d2a4f
+}
+.style-customizer .skin-phant {
+    background: #103754
+}
+.style-customizer .skin-plum {
+    background: #863C80
+}
+.style-customizer .skin-red {
+    background: #F33837
+}
+.style-customizer .skin-sandal {
+    background: #a57e6f
+}
+
+
+
+.white-bg {
+    background-color: #fff
+}
+@media  (max-width : 575px) {
+    .style-customizer{
+        width: 250px; 
+        right: -250px; 
+    }
+    .style-customizer a.opener {
+        right: 250px;
+    }
+
+}

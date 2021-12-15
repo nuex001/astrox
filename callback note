@@ -1,0 +1,80 @@
+[1st one in index ) 
+{
+    * callback_name
+    * callback_course
+    * callback_email
+    * callback_phone
+    * CBCountry11CB <- for country
+     callback_submit
+} DONE ]
+
+
+1st one in footer(popup) )
+{
+    * CBName
+    * CBContactNumber
+    * CBEmail
+    * CBCountry11c <- for country
+    * CBMessage
+    * RADIO TICKING{ CBchkPrefCallBack val(1 email), val(2,phone)}
+    * btnSubmitCB
+}
+
+2nd one in footer(CallBackInPerson))
+{
+    * nameInPerson
+    * contactNumberInPerson
+    * emailInPerson
+    * CBCountry11CB <- for country
+    * messageInPerson
+    RADIO TICKING{ chkPrefCallBackInPerson val(1 email), val(2,phone)}
+    * btnSubmitInPerson
+}
+
+3rd one in footer(CallBackGroupCourse)
+{
+    * nameGroupCourse
+    * contactNumberGroupCourse
+    * emailGroupCourse
+    * CBCountry11CB <- for country
+    * messageGroupCourse
+    RADIO TICKING{ chkPrefCallBackGroupCourse val(1 email), val(2,phone)}
+    * btnSubmitGroupCourse
+}
+
+3rd one in footer(CallBackOnlineCourse)
+{
+    * nameOnlineCourse
+    * contactNumberOnlineCourse
+    * emailOnlineCourse
+    * CBCountry11CB <- for country
+    * messageOnlineCourse
+    RADIO TICKING{ chkPrefCallBackOnlineCourse val(1 email), val(2,phone)}
+    * btnSubmitOnlineCourse
+}
+
+4th one in footer(CallBackFundamentals)
+{
+    * nameFundamentals
+    * contactNumberFundamentals
+    * emailFundamentals
+    * CBCountry11CB <- for country
+    * messageFundamentals
+    RADIO TICKING{ chkPrefCallBackFundamentals val(1 email), val(2,phone)}
+    * btnSubmitFundamentals
+}
+
+logine333
+{
+    * email
+    * password
+}
+
+contactus
+{
+    * contact_name
+    * contact_email
+    * contact_phone
+    * contact_message
+    * btn_contactus_submit
+}[removed].
